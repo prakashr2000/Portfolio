@@ -94,7 +94,6 @@ I enjoy solving business challenges through technology, improving operational ef
 - JavaScript
 - HTML5
 - CSS3
-- React.js
 - Node.js
 - Python
 
@@ -112,10 +111,10 @@ Cleaned and transformed Netflix dataset records into structured, analysis-ready 
 
 Developed a machine learning model to analyse cardiovascular disease data and evaluate prediction results.
 
-### 3. British Airways Dashboard
+### 3. PwC Dashboard
 **Technologies:** Power BI, Python, Data Analytics
 
-Analysed British Airways datasets to explore patterns and support data-driven insights through analytics and visualisation.
+Analysed Pwc Dashboard datasets to explore patterns and support data-driven insights through analytics and visualisation.
 
 > Add your actual GitHub repository or live project URLs to the portfolio's project links.
 
@@ -134,11 +133,7 @@ Certificate links can be added to the relevant certification names in the portfo
 
 ## 🧰 Technologies Used
 
-- **HTML5** — Semantic page structure
-- **CSS3** — Responsive layouts, styling, and animations
-- **JavaScript** — Interactive features and dynamic behaviour
-- **Boxicons** — Icons used throughout the portfolio
-- **Google Fonts** — Typography
+- **SAP S/4 HANA** — Semantic page structure
 
 ---
 
