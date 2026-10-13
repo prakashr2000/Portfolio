@@ -3,381 +3,484 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> PERSONAL PORTFOLIO</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="description"
+        content="Prakash R — SAP Consultant portfolio showcasing SAP expertise, projects, skills, and experience.">
+    <title>Prakash R | SAP Consultant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
     <header class="header">
-        <a href="#" class="logo">Prakash R</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">HOME</a>
-            <a href="#about">ABOUT</a>
-             <a href="#Experience">EXPERIENCE</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#internship">INTERNSHIPS</a>
-            <a href="#education">EDUCATION</a>
-            <a href="#contact">CONTACT</a>
-            <a href="#contact-info">CONTACT INFO</a>
+        <a href="#home" class="logo"><span class="logo-mark">P</span>Prakash R<span class="logo-dot"></span></a>
+        <button class="menu-toggle" id="menu-icon" aria-label="Open navigation" aria-expanded="false"><i
+                class="bx bx-menu"></i></button>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Prakash Ramesh</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <div class="home-photo">
-                <img src="assets/images/MyPic.heic" alt="My Photo">
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-copy reveal">
+                <p class="intro-line">Hello, I'm</p>
+                <h1>Prakash <span>R.</span></h1>
+                <h2>And I'm a <span class="typed-text">SAP solutions</span><span class="cursor">|</span></h2>
+                <p class="hero-description">SAP-focused professional interested in enterprise processes, procurement,
+                    supply chain operations, and practical technology solutions that help businesses work smarter.</p>
+                <div class="hero-actions">
+                    <a href="#experience" class="btn btn-primary">Explore my work <i
+                            class="bx bx-right-arrow-alt"></i></a>
+                    <a href="#contact" class="btn btn-quiet">Let's connect</a>
+
+                    <a href="assets/images/Prakash_Ramesh_Resume (1).pdf"
+       class="btn btn-resume"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="bx bx-file"></i>
+        View Resume
+    </a>
+
+    <!-- Download Resume -->
+    <a href="assets/images/Prakash_Ramesh_Resume (1).pdf"
+       class="btn btn-primary"
+       download>
+        <i class="bx bx-download"></i>
+        Download CV
+    </a>
+
+                </div>
+                <div class="hero-meta">
+                    <div><strong>SAP MM / SD</strong><span>Functional focus</span></div>
+                    <div><strong>ERP & Data</strong><span>Process-driven</span></div>
+                    <div><strong>Continuous</strong><span>Learning mindset</span></div>
+                </div>
             </div>
-            <a href="assets/images/resume.pdf" class="btn" target="_blank" rel="noopener" title="View CV">Resume</a>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="portfolio.png" alt="">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>SAP Consultant</h3>
-            <p>Hello! I'm **Prakash R**, an SAP Consultant with experience in SAP MM, SAP SD, procurement, and supply chain management. 
-                I specialize in ERP support, business process optimization, and SQL-based data analysis. 
-                I’m passionate about solving business challenges through SAP solutions and continuously expanding my technical expertise.
-            </p>
-            <a href="self.html" class="btn" target="_blank" rel="noopener" title="Learn More About Me">View More</a>
-        </div>
-    </section>
-<section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Projects</span></h2>
+            <div class="hero-visual reveal">
+                <div class="orbit orbit-a"></div>
+                <div class="orbit orbit-b"></div>
+                <div class="profile-card">
+                    <div class="profile-top"><span class="window-dots"><i></i><i></i><i></i></span><span></span></div>
+                    <div class="profile-monogram">
+                        <img src="assets/images/MyPic.jpg" alt="Prakash R">
+                    </div>
 
-    <div class="portfolio-container">
-
-        <!-- EV Management System -->
-        <div class="portfolio-box">
-            <img src="./assets/images/EV.jpeg" alt="EV Management System">
-            <div class="portfolio-layer">
-                <h4>EV Management System</h4>
-                <p>
-                    An Electric Vehicle Management System developed using Java,
-                    Hibernate, and JDBC to manage EV-related data and operations
-                    efficiently.
-                </p>
-                <a href="#" aria-label="View EV Management System">
-                    <i class="bx bx-link-external"></i>
-                </a>
+        
+                    <div class="profile-divider"></div>
+                    <div class="profile-divider"></div>
+                </div>
             </div>
-        </div>
+            <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+        </section>
 
-        <!-- Brain Tumor Detection -->
-        <div class="portfolio-box">
-            <img src="./assets/images/Tumor.jpeg" alt="Brain Tumor Detection">
-            <div class="portfolio-layer">
-                <h4>Brain Tumor Detection</h4>
-                <p>
-                    A final-year machine learning project that analyzes brain
-                    images to assist in detecting brain tumors using ML techniques.
-                </p>
-                <a href="#" aria-label="View Brain Tumor Detection Project">
-                    <i class="bx bx-link-external"></i>
-                </a>
+        <section class="section about-section" id="about">
+            <div class="section-heading reveal">
+                <p class="section-kicker">A little about me</p>
+                <h2>Connecting business needs<br>with <span>technology.</span></h2>
             </div>
-        </div>
-
-        <!-- E-Commerce Website -->
-        <div class="portfolio-box">
-            <img src="./assets/images/Ecom.jpeg" alt="E-Commerce Website">
-            <div class="portfolio-layer">
-                <h4>E-Commerce Website</h4>
-                <p>
-                    A responsive e-commerce website built using HTML, CSS, and
-                    JavaScript with a clean interface for browsing and shopping.
-                </p>
-                <a href="#" aria-label="View E-Commerce Website">
-                    <i class="bx bx-link-external"></i>
-                </a>
+            <div class="about-grid">
+                <div class="about-note reveal">
+                    <div class="note-symbol"><i class="bx bx-message-square-detail"></i></div>
+                    <p class="large-copy">I enjoy understanding how business processes work—and finding ways to make
+                        them clearer, more efficient, and easier to support.</p>
+                    <p class="muted-copy">My interests include SAP ERP, procurement and inventory workflows, supply
+                        chain operations, and SQL-based analysis. I’m committed to learning continuously and building
+                        solutions with practical business value.</p>
+                </div>
+                <div class="about-facts reveal">
+                    <div class="fact-row"><span class="fact-index">01</span>
+                        <div>
+                            <h3>Functional understanding</h3>
+                            <p>Procurement, purchasing, inventory, and order-related processes.</p>
+                        </div>
+                    </div>
+                    <div class="fact-row"><span class="fact-index">02</span>
+                        <div>
+                            <h3>Technical curiosity</h3>
+                            <p>ERP systems, SQL, integrations, and SAP platform technologies.</p>
+                        </div>
+                    </div>
+                    <div class="fact-row"><span class="fact-index">03</span>
+                        <div>
+                            <h3>Problem-solving mindset</h3>
+                            <p>Breaking down issues, analysing information, and collaborating toward resolutions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Portfolio Website -->
-        <div class="portfolio-box">
-            <img src="./assets/images/Proto.jpeg" alt="Portfolio Website">
-            <div class="portfolio-layer">
-                <h4>Portfolio Website</h4>
-                <p>
-                    A personal portfolio website developed using HTML, CSS, and
-                    JavaScript to showcase skills, projects, and achievements.
-                </p>
-                <a href="#" aria-label="View Portfolio Website">
-                    <i class="bx bx-link-external"></i>
-                </a>
-            </div>
-        </div>
-
+       <section class="section experience-section" id="experience">
+    <div class="section-heading reveal">
+        <p class="section-kicker">My professional journey</p>
+        <h2>Experience & <span>expertise.</span></h2>
+        <p class="section-subtitle">
+            SAP consulting, supply chain operations, ERP support,
+            and data analytics.
+        </p>
     </div>
-</section>
-```html
-<section class="internship" id="internship">
-    <h2 class="heading">My <span>Internships</span></h2>
 
-    <div class="internship-container">
-    <!-- Pentagon Space -->
-        <div class="internship-box">
-            <i class='bx bx-code-alt'></i>
-            <h3>Java Full Stack Developer</h3>
-            <p>
-                <strong>Pentagon Space</strong><br>
-                <strong>Role:</strong> Java Full Stack Developer Intern<br>
-                <strong>Duration:</strong> January 2025 - October 2025<br>
-                <strong>Responsibilities:</strong>
-                Developed and enhanced full-stack web applications using
-                Java and related technologies. Worked on frontend and backend
-                development, database integration, debugging, testing, and
-                application functionality.
-            </p>
-        </div>
-        <!-- InterPe -->
-        <div class="internship-box">
-            <i class='bx bx-laptop'></i>
-            <h3>Web Development Intern</h3>
-            <p>
-                <strong>InterPe</strong><br>
-                <strong>Role:</strong> Web Development Intern<br>
-                <strong>Duration:</strong> July 2025 - August 2025<br>
-                <strong>Responsibilities:</strong>
-                Contributed to web development projects using HTML, CSS, and
-                JavaScript. Collaborated with senior developers to enhance
-                user interfaces and improve website functionality.
-            </p>
-        </div>
+    <div class="experience-grid">
 
-        <!-- Internshala -->
-        <div class="internship-box">
-            <i class='bx bx-briefcase'></i>
-            <h3>Internshala Student Partner (ISP)</h3>
+        <article class="experience-card reveal">
+            <span class="card-number">DEC 2024 – PRESENT</span>
+            <div class="card-icon">
+                <i class="bx bx-package"></i>
+            </div>
+            <h3>Associate Consultant</h3>
+            <h2>ITC Infotech</h2>
             <p>
-                <strong>Internshala</strong><br>
-                <strong>Role:</strong> Student Ambassador<br>
-                <strong>Duration:</strong> July 2025 - August 2025<br>
-                <strong>Responsibilities:</strong>
-                Promoted Internshala on campus, created awareness about
-                internship opportunities, and helped fellow students
-                explore career and learning opportunities.
+                Manage supply chain operations using SAP MM and SAP SD.
+    Handle master data maintenance, production planning support,
+    and additional material requests. Manage warranty claims,
+    BOM updates, procurement, and order processing while
+    coordinating with US-based clients. Support IDoc monitoring,
+    SLT-related activities, and SAP ticket resolution to
+    troubleshoot issues and maintain smooth business operations.
             </p>
-        </div>
+            <div class="tag-row">
+                  <span>SAP MM</span>
+    <span>SAP SD</span>
+    <span>Master Data</span>
+    <span>Production Planning</span>
+    <span>SLT</span>
+    <span>IDoc Monitoring</span>
+    <span>Ticket Resolution</span>
+    <span>BOM</span>
+    <span>Procurement</span>
+            </div>
+        </article>
 
-        <!-- Upskill Campus -->
-        <div class="internship-box">
-            <i class='bx bx-laptop'></i>
-            <h3>Full Stack Development Intern</h3>
+        <article class="experience-card reveal">
+            <span class="card-number">MAR 2024 – DEC 2024</span>
+            <div class="card-icon">
+                <i class="bx bx-cog"></i>
+            </div>
+            <h3>SAP Functional Consultant</h3>
+            <h2>NLC India Limited</h2>
             <p>
-                <strong>Upskill Campus</strong><br>
-                <strong>Role:</strong> Project Development Intern<br>
-                <strong>Duration:</strong> July 2025 - September 2025<br>
-                <strong>Responsibilities:</strong>
-                Contributed to project development through research,
-                implementation, testing, and collaboration within the
-                selected development domain.
+                Supported SAP MM and SD configuration, procurement
+                workflows, RFQs, purchase requisitions, and purchase
+                orders. Contributed to data migration, SQL-driven
+                reporting, RICEF exposure, and user acceptance testing.
             </p>
-        </div>
+            <div class="tag-row">
+                <span>SAP MM / SD</span>
+                <span>SPRO</span>
+                <span>SQL</span>
+                <span>RICEF</span>
+                <span>UAT</span>
+            </div>
+        </article>
 
-        <!-- CodTech -->
-        <div class="internship-box">
-            <i class='bx bx-code-curly'></i>
-            <h3>Software Development Intern</h3>
+        <article class="experience-card reveal">
+            <span class="card-number">MAY 2023 – SEP 2023</span>
+            <div class="card-icon">
+                <i class="bx bx-support"></i>
+            </div>
+            <h3>Technical Support Analyst</h3>
+            <h2>CMS IT Services</h2>
             <p>
-                <strong>CodTech</strong><br>
-                <strong>Role:</strong> Software Development Intern<br>
-                <strong>Duration:</strong> August 2025 - September 2025<br>
-                <strong>Responsibilities:</strong>
-                Developed a static portfolio website, designed a RESTful API
-                for a library system, built a real-time collaboration tool,
-                and worked on code optimization and performance improvement.
+                Provided technical support, network and software
+                troubleshooting, hardware diagnostics, and issue
+                resolution. Achieved a reported 95% first-contact
+                resolution rate.
             </p>
-        </div>
-
-    
-
-        <!-- Voultofcodes -->
-        <div class="internship-box">
-            <i class='bx bx-laptop'></i>
-            <h3>Web Development Intern</h3>
-            <p>
-                <strong>Voultofcodes</strong><br>
-                <strong>Role:</strong> Web Development Intern<br>
-                <strong>Duration:</strong> August 2025 - September 2025<br>
-                <strong>Responsibilities:</strong>
-                Gained practical experience by applying web development
-                concepts to real-world projects and contributing to
-                website development tasks.
-            </p>
-        </div>
+            <div class="tag-row">
+                <span>Technical Support</span>
+                <span>Troubleshooting</span>
+                <span>Customer Service</span>
+            </div>
+        </article>
 
     </div>
 </section>
 
-    <section class="education" id="education">
-        <h2 class="heading">Education & <span>Certifications</span></h2>
-        <div class="education-container">
-            <div class="education-box">
-                <i class='bx bx-book'></i>
-                <h3>School Education</h3>
-                <p><strong>Sacred Heart Girl's Higher Secondary School</strong><br>
-                    Completed High School with a focus on Science and Mathematics<br>
-                    Year: 2020 - 2022<br> </p>
-            </div>
-            <div class="education-box">
-                <!-- <i class='bx bx-graduation'></i> -->
-                <i class='bx bx-book'></i>
 
-                <h3>College Education</h3>
-                <p><strong>St.Joseph's College of Engineering And Technology,Thanjavur </strong><br>
-                    Bachelor of Engineering in Computer Science<br>
-                    Year: 2022 - 2026<br>
-                    </p>
+<section class="section projects-section" id="projects">
+    <div class="section-heading reveal">
+        <p class="section-kicker">Projects</p>
+        <h2>Internship & <span>Projects.</span></h2>
+        <h3 class="section-subtitle">
+            SQL, business intelligence, data analysis, and machine learning.
+        </h3>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- Project 1: Netflix SQL Analysis -->
+        <article class="project-card project-feature reveal">
+            <div class="project-visual visual-sql">
+                <i class="bx bx-data"></i>
+                <span></span>
+                <div class="visual-grid"></div>
             </div>
-            <div class="education-box">
-                <i class='bx bx-award'></i>
-                <h3>Certifications</h3>
+
+            <div class="project-content">
+                <p class="project-type">SQL • DATA CLEANING</p>
+                <h3>Netflix Dataset Analysis</h3>
                 <p>
-                    <a href="certificate.html?id=1" class="cert-link">Certified Web Developer - Simplilearn
-                        (2025)</a><br>
-                    <a href="certificate.html?id=2" class="cert-link">Human Computer Interaction - Nptel (2025)</a><br>
-                    <a href="certificate.html?id=3" class="cert-link">Full Stack Developer - NoviTech R&D(2025)
-                    </a><br>
-                    <a href="certificate.html?id=4" class="cert-link">Building with AI-saylor.org(2025)</a><br>
-
-
-
-
+                    Cleaned and transformed raw Netflix data into structured,
+                    analysis-ready PostgreSQL tables to improve data accuracy
+                    and support efficient querying.
                 </p>
+
+                <div class="tag-row">
+                    <span>PostgreSQL</span>
+                    <span>SQL</span>
+                    <span>Data Cleaning</span>
+                </div>
+
+                <a class="project-link"
+                   href="https://github.com/prakashr2000/Netflix_SQL_Project"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View project <i class="bx bx-right-arrow-alt"></i>
+                </a>
             </div>
-        </div>
-    </section>
+        </article>
 
-    <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
-        <div class="skills-container">
-            <div class="skills-box">
-                <h3>Tech Skills-Frontend</h3>
-                <i class='bx bx-code-alt'></i>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-
-                </ul>
-
-                <!-- 
-                <h3>Tools & Database </h3>
-                <ul>
-                    <li>VS Code</li>
-                    <li>GitHub</li>
-                    <li>My SQL And PostgreSQL</li>                
-                </ul> -->
-            </div>
-            <div class="skills-box">
-                <h3>Tech Skills-Backend</h3>
-                <i class='bx bx-code-alt'></i>
-                <ul>
-                    <li>Java</li>
-                    <li>JDBC</li>
-                    <li>Hibernate</li>
-                    <li>Spring Core</li>
-                    <li>Spring Boot</li>
-                    <li>Servlet</li>
-                </ul>
-
-            </div>
-            <div class="skills-box">
-
-                <h3>Tools & Database </h3>
-                <ul>
-                    <li>VS Code</li>
-                    <li>GitHub</li>
-                    <li>My SQL And PostgreSQL</li>
-                </ul>
-                <h3>Soft Skills</h3>
-                <i class='bx bx-group'></i>
-                <ul>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                    <li>Problem-Solving</li>
-                    <li>Time Management</li>
-                    <li>Leadership</li>
-                </ul>
+        <!-- Project 2: Heart Disease Prediction -->
+        <article class="project-card reveal">
+            <div class="project-visual visual-ai">
+                <i class="bx bx-brain"></i>
+                <span></span>
+                <div class="visual-grid"></div>
             </div>
 
-            <!-- <div class="skills-box">
-                <h3>Soft Skills</h3>
-                <i class='bx bx-group'></i>
-                <ul>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                    <li>Problem-Solving</li>
-                    <li>Time Management</li>
-                    <li>Adaptability</li>
-                    <li>Creativity</li>
-                    <li>Leadership</li>
-                </ul>
+            <div class="project-content">
+                <p class="project-type">MACHINE LEARNING</p>
+                <h3>Heart Disease Prediction</h3>
+                <p>
+                    Built a cardiovascular disease prediction model using
+                    K-Nearest Neighbors and Python visualisation libraries
+                    to evaluate model results.
+                </p>
 
-            </div> -->
+                <div class="tag-row">
+                    <span>Python</span>
+                    <span>KNN</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+                </div>
 
-
-
-        </div>
-    </section>
-
-
-
-
-
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>ME!</span></h2>
-        <form action="#" name="submit-to-google-sheet">
-            <div class="input-box">
-                <input type="text" name="Name" placeholder="Full Name">
-                <input type="email" name="Email Address" placeholder="Email Address">
+                <a class="project-link"
+                   href="https://github.com/prakashr2000/Machine_Learning_Project"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View project <i class="bx bx-right-arrow-alt"></i>
+                </a>
             </div>
-            <div class="input-box">
-                <input type="number" name="Mobile Number" placeholder="Mobile Number">
-                <input type="text" name="Email Subject" placeholder="Email Subject">
+        </article>
+
+        <!-- Project 3: British Airways Dashboard -->
+        <article class="project-card reveal">
+            <div class="project-visual visual-powerbi">
+                <i class="bx bx-bar-chart-alt-2"></i>
+                <span></span>
+                <div class="visual-grid"></div>
             </div>
-            <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-        <span id="msg"></span>
-    </section>
-    <section class="contact-info-section" id="contact-info">
-        <h2 class="heading">Contact <span>Info</span></h2>
-        <div class="contact-info">
-            <p><i class='bx bx-phone'></i> +91-9585735063</p>
-            <p><i class='bx bx-envelope'></i>ashikamanikandan.067@gmail.com</p>
-            <p><a href="https://github.com/ashika67" target="_blank" rel="noopener" title="GitHub"><i
-                        class='bx bxl-github'></i> github.com/ashika m</a></p>
-            <p><a href="https://www.linkedin.com/in/ashika-m-a073ba2a2" target="_blank" rel="noopener"
-                    title="LinkedIn"><i class='bx bxl-linkedin'></i> linkedin.com/in/ashika m</a></p>
-            <p><a href="https://www.instagram.com/ashiiii_673?igsh=MXQzb2NoNGR0MndxMg==" target="_blank" rel="noopener"
-                    title="Instagram"><i class='bx bxl-instagram'></i> instagram.com/ashi_367</a></p>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-text">
-            <p>&copy; Ashika M | All Rights Reserved.</p>
-        </div>
-        <div class="digital-clock">
-            <span id="current-time"></span>
-        </div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
+
+            <div class="project-content">
+                <p class="project-type">POWER BI • BUSINESS INTELLIGENCE</p>
+                <h3>PwC Analytics Dashboard</h3>
+                <p>
+                       Created dashboards to analyse customer behaviour,
+                    agent performance, and gender balance to support
+                    operational and diversity-related insights.
+                </p>
+
+                <div class="tag-row">
+                    <span>Power BI</span>
+                    <span>Dashboards</span>
+                    <span>Data Analysis</span>
+                </div>
+
+                <a class="project-link"
+                   href="https://github.com/prakashr2000/Power_BI_PWC_Project"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View project <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+        <section class="section skills-section" id="skills">
+            <div class="section-heading reveal">
+                <p class="section-kicker">My toolkit</p>
+                <h2>Skills & <span>technologies.</span></h2>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-panel reveal">
+                    <div class="skill-panel-head"><i class="bx bx-layer"></i><span></span></div>
+                    <h3>SAP Functional</h3>
+                    <p>Business processes and ERP operations</p>
+                    <div class="skill-list"><span>SAP MM</span><span>SAP
+                            SD</span><span>Procure-to-Pay</span><span>Master Data</span><span>BOM</span></div>
+                </article>
+                <article class="skill-panel reveal">
+                    <div class="skill-panel-head"><i class="bx bx-code-alt"></i><span></span></div>
+                    <h3>SAP & Technical</h3>
+                    <p>Platforms and technical concepts</p>
+                    <div class="skill-list"><span>SAP S/4HANA</span><span>SAP BTP</span><span>SQL</span><span>API
+                            concepts</span><span>ERP support</span></div>
+                </article>
+                <article class="skill-panel reveal">
+                    <div class="skill-panel-head"><i class="bx bx-wrench"></i><span></span></div>
+                    <h3>Tools & Work Style</h3>
+                    <p>Tools for analysis and collaboration</p>
+                    <div class="skill-list"><span>SAP GUI</span><span>Microsoft
+                            Excel</span><span>GitHub</span><span>Analytical thinking</span><span>Teamwork</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section education-section" id="education">
+            <div class="section-heading reveal">
+                <p class="section-kicker">Learning journey</p>
+                <h2>Education & <span>certifications.</span></h2>
+            </div>
+            <div class="education-layout">
+                <div class="education-timeline reveal">
+                    <article class="timeline-item"><span class="timeline-dot"></span>
+                        <p class="timeline-date">2018 — 2022</p>
+                        <h3>B.E. Computer Science</h3>
+                        <p>St. Joseph's College of Engineering, Chennai</p><span class="timeline-label">Undergraduate
+                            degree</span>
+                    </article>
+                    <article class="timeline-item"><span class="timeline-dot"></span>
+                        <p class="timeline-date">2017 — 2018</p>
+                        <h3>Higher Secondary Education</h3>
+                        <p>St. Paul's Matric Higher Secondary School</p><span class="timeline-label">School
+                            education</span>
+                    </article>
+
+                    <article class="timeline-item"><span class="timeline-dot"></span>
+                        <p class="timeline-date">2015 — 2016</p>
+                        <h3>Secondary Education</h3>
+                        <p>St. Paul's Matric Higher Secondary School</p><span class="timeline-label">School
+                            education</span>
+                    </article>
+                </div>
+                <div class="cert-panel reveal">
+                    <div class="cert-panel-icon"><i class="bx bx-award"></i></div>
+                    <h1>Certifications</h1>
+                    <p>Click to view the Certificate</p>
+                  <ul>
+    <li>
+        <i class="bx bx-link-external"></i>
+        <a href="https://drive.google.com/file/d/1_xENmGUwXs7s7tEdavquhRSHRVVUo9VU/view?usp=sharing"
+           target="_blank" rel="noopener noreferrer">
+            SAP Materials Management
+        </a>
+    </li>
+
+     <li>
+        <i class="bx bx-link-external"></i>
+        <a href="https://drive.google.com/file/d/1NHJ-dKqoamkyYgoPTA5OAsRjc7Cd6H_w/view?usp=sharing"
+           target="_blank" rel="noopener noreferrer">
+            SAP BI/BW
+        </a>
+    </li>
+
+    <li>
+        <i class="bx bx-link-external"></i>
+        <a href="YOUR_SAP_BTP_CERTIFICATE_URL"
+           target="_blank" rel="noopener noreferrer">
+            SAP BTP
+        </a>
+    </li>
+
+    <li>
+        <i class="bx bx-link-external"></i>
+        <a href="https://drive.google.com/file/d/1P8rl2vv5k1rnYqub1wEXqW4vB7wppY_Y/view?usp=sharing"
+           target="_blank" rel="noopener noreferrer">
+            Career Essentials in Data Analysis - Microsoft
+        </a>
+    </li>
+
+    <li>
+        <i class="bx bx-link-external"></i>
+        <a href="https://drive.google.com/file/d/1cHD7TV_uQw70aWku96ZTe3Q1WXoro6__/view?usp=sharing"
+           target="_blank" rel="noopener noreferrer">
+            Data Analyst Certification
+        </a>
+    </li>
+</ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="contact-card reveal">
+                <div class="contact-copy">
+                    <p class="section-kicker">Have a role or project in mind?</p>
+                    <h2>Let's build something<br><span>meaningful.</span></h2>
+                    <p>Open to connecting about SAP, ERP, supply chain processes, and technology opportunities.</p><a
+                        class="btn btn-primary" href="mailto:your-email@example.com">Email me <i
+                            class="bx bx-send"></i></a>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-detail"><span class="detail-icon"><i class="bx bx-envelope"></i></span>
+                        <div><small>Email</small><a href="mailto:prakashr1503@gmail.com">prakashr1503@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="contact-detail">
+                        <span class="detail-icon">
+                            <i class="bx bxl-github"></i>
+                        </span>
+                        <div>
+                            <small>GitHub</small>
+                            <a href="https://github.com/prakashr2000" target="_blank" rel="noopener noreferrer">Prakash
+                                R</a>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="contact-detail">
+                        <span class="detail-icon">
+                            <i class="bx bxl-linkedin"></i>
+                        </span>
+                        <div>
+                            <small>LinkedIn</small>
+                            <a href="https://www.linkedin.com/in/iamprakashramesh/" target="_blank"
+                                rel="noopener noreferrer">Prakash R</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><a href="#home" class="footer-brand">PR<span>.</span></a>
+        <p>Designed with purpose by Prakash R. <span id="year"></span></p>
+        <div class="footer-right"><span class="digital-clock" id="current-time"></span><a href="#home" class="back-top"
+                aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a></div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
 </body>
-
 
 </html>
