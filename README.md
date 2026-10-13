@@ -1,113 +1,216 @@
 
 # 🌟 My Portfolio
 
-A **sleek, modern, and fully responsive portfolio website** built to showcase skills, projects, and achievements with style and efficiency 🚀
-Perfect for **developers, designers, and creatives** looking to make a lasting impression online.
+# 🌟 Prakash R. — SAP Consultant Portfolio
+
+A **modern, responsive, and professionally designed portfolio website** showcasing my experience in SAP consulting, ERP systems, supply chain operations, data analytics, and technology solutions.
+
+Built with HTML, CSS, and JavaScript, this portfolio highlights my professional journey, technical expertise, projects, certifications, and achievements.
 
 ---
 
 ## 📖 Table of Contents
 
-* [About](#ℹ️-about)
-* [Features](#✨-features)
-* [Technologies Used](#🛠️-technologies-used)
-* [Installation](#🚀-installation)
-* [Usage](#📚-usage)
-* [License](#📜-license)
-* [Contact](#📬-contact)
+- [About Me](#-about-me)
+- [Professional Experience](#-professional-experience)
+- [Skills & Expertise](#-skills--expertise)
+- [Projects](#-projects)
+- [Certifications](#-certifications)
+- [Technologies Used](#️-technologies-used)
+- [Installation](#-installation)
+- [Contact](#-contact)
 
 ---
 
-## ℹ️ About
+## 👨‍💻 About Me
 
-The **Ashika Responsive Portfolio** is a lightweight, customizable, and mobile-friendly portfolio template designed to help present work professionally. Whether you’re a **web developer, graphic designer, or freelancer**, this portfolio is optimized for **performance, accessibility, and SEO** 🌐
+I'm **Prakash R., an SAP Consultant** with experience in SAP MM, SAP SD, ERP support, procurement, and supply chain management.
+
+My professional interests include enterprise process optimization, master data management, production planning support, SAP integration monitoring, ticket resolution, and data-driven decision-making.
+
+I enjoy solving business challenges through technology, improving operational efficiency, and continuously expanding my technical expertise.
 
 ### 🔑 Key Highlights
 
-* 🎨 Clean and minimal design
-* 📱 Fully responsive across all devices
-* 🔍 SEO-optimized for better visibility
-* ⚙️ Easy to customize and deploy
+- SAP Materials Management (SAP MM)
+- SAP Sales and Distribution (SAP SD)
+- ERP support and procurement processes
+- Master data management and BOM updates
+- Production planning support
+- IDoc monitoring and SLT-related activities
+- SAP ticket handling and issue resolution
+- SQL, Power BI, and data analytics
 
 ---
 
-## ✨ Features
+## 💼 Professional Experience
 
-* 📲 **Responsive Design** – Adapts seamlessly to desktops, tablets, and mobile devices
-* ⚡ **Fast Loading** – Optimized for speed with minimal dependencies
-* 🔎 **SEO-Friendly** – Uses semantic HTML and meta tags
-* 🎉 **Interactive UI** – Smooth animations and transitions
-* 🌍 **Cross-Browser Compatibility** – Works on Chrome, Firefox, Safari, and Edge
-* ✏️ **Customizable Sections** – About, Skills, Projects, and Contact
+### Associate Consultant — ITC Infotech / KONE
+
+- Manage supply chain operations using SAP MM and SAP SD.
+- Handle master data maintenance, production planning support, and additional material requests.
+- Support warranty claims, BOM updates, procurement, and order processing.
+- Coordinate with US-based clients.
+- Support IDoc monitoring, SLT-related activities, and SAP ticket resolution.
+
+### SAP Functional Consultant — NLC India Limited
+
+- Supported SAP MM and SAP SD functional processes.
+- Worked with procurement workflows, RFQs, purchase requisitions, and purchase orders.
+- Contributed to data migration, SQL reporting, and user acceptance testing.
+- Gained exposure to RICEF-related activities and ERP process improvements.
+
+### Technical Support Analyst — CMS IT Services
+
+- Provided technical support and troubleshooting for hardware, software, and network issues.
+- Diagnosed technical problems and supported issue resolution.
+- Focused on customer service and efficient incident handling.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Skills & Expertise
 
-* **HTML5 📝** – Semantic and accessible markup
-* **CSS3 🎨** – Flexbox, Grid, and media queries
-* **JavaScript ⚙️** – Interactivity and dynamic behavior
-* **Bootstrap (Optional) 📚** – Rapid styling and layout
-* **Font Awesome 🖼️** – Scalable icons
-* **Google Fonts ✍️** – Modern typography
+### SAP & ERP
+- SAP MM
+- SAP SD
+- SAP ERP
+- SAP S/4HANA
+- SAP master data
+- Procurement and inventory management
+- Production planning support
+- BOM management
+- IDoc monitoring
+- SLT-related activities
+- Ticket management and troubleshooting
+
+### Data Analytics & Reporting
+- SQL
+- MySQL
+- PostgreSQL
+- Power BI
+- Microsoft Excel
+- Data cleaning and analysis
+- Business intelligence dashboards
+
+### Programming & Web Technologies
+- ABAP
+- JavaScript
+- HTML5
+- CSS3
+- React.js
+- Node.js
+- Python
 
 ---
 
-## 🚀 Installation
+## 🚀 Projects
 
-Follow these steps to set up the portfolio locally:
+### 1. Netflix Dataset Analysis
+**Technologies:** PostgreSQL, SQL, Data Cleaning
 
-### 1️⃣ Clone the Repository
+Cleaned and transformed Netflix dataset records into structured, analysis-ready tables to improve data accuracy and support efficient querying.
+
+### 2. Heart Disease Prediction
+**Technologies:** Python, K-Nearest Neighbors, Matplotlib, Seaborn
+
+Developed a machine learning model to analyse cardiovascular disease data and evaluate prediction results.
+
+### 3. British Airways Dashboard
+**Technologies:** Power BI, Python, Data Analytics
+
+Analysed British Airways datasets to explore patterns and support data-driven insights through analytics and visualisation.
+
+> Add your actual GitHub repository or live project URLs to the portfolio's project links.
+
+---
+
+## 🏆 Certifications
+
+- SAP Materials Management
+- SAP Business Technology Platform (SAP BTP)
+- Career Essentials in Data Analysis — Microsoft
+- Data Analyst Certification
+
+Certificate links can be added to the relevant certification names in the portfolio.
+
+---
+
+## 🧰 Technologies Used
+
+- **HTML5** — Semantic page structure
+- **CSS3** — Responsive layouts, styling, and animations
+- **JavaScript** — Interactive features and dynamic behaviour
+- **Boxicons** — Icons used throughout the portfolio
+- **Google Fonts** — Typography
+
+---
+
+## ⚙️ Installation
+
+Follow these steps to run the portfolio locally.
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ashika67/protofolio.git
+git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY.git
 ```
 
-### 2️⃣ Navigate to the Project Directory
+### 2. Navigate to the Project Directory
 
 ```bash
-cd ashika-responsive-portfolio
+cd YOUR-REPOSITORY
 ```
 
-### 3️⃣ Open the Project
+### 3. Open the Project
 
-Open `index.html` in your preferred browser
-**OR** use a local server (Live Server in VS Code recommended).
-
-> 📌 Ensure internet access if using CDN links for Bootstrap or Font Awesome.
+Open `index.html` in your browser, or use the **Live Server** extension in Visual Studio Code.
 
 ---
 
 ## 📚 Usage
 
-### ✏️ Customize Content
+### Customize the Portfolio
 
-* Edit `index.html` to update personal details, projects, and contact info
-* Modify `styles.css` to change colors, fonts, and layout
+- Edit `index.html` to update personal information, experience, skills, projects, and certifications.
+- Modify `style.css` to customize the theme, colours, responsive layouts, and animations.
+- Update `script.js` to change navigation behaviour, scrolling effects, and interactive elements.
+- Add your profile photo to the appropriate image folder.
+- Add your resume PDF to the `assets` folder and link it to the View Resume and Download CV buttons.
 
-### 🚀 Deployment
+### Resume
 
-* Deploy easily using **GitHub Pages**, **Netlify**, or **Vercel**
+The portfolio includes options to view and download my resume directly from the Home section.
+
+---
+
+## 🌐 Deployment
+
+This portfolio can be deployed using:
+
+- GitHub Pages
+- Netlify
+- Vercel
+
+For GitHub Pages, push the project files to a GitHub repository and enable Pages in the repository settings.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
-You are free to use, modify, and distribute it for personal or commercial purposes 📄
+Add a license file if you intend to distribute this project for reuse. If you choose the MIT License, include the appropriate `LICENSE` file in the repository.
 
 ---
 
 ## 📬 Contact
 
-Have questions or suggestions? Feel free to reach out! ✉️
+**Prakash R. — SAP Consultant**
 
-* **Name:** Ashika M
-* **Email:** [ashikasjcetcse@gmail.com](mailto:ashikasjcetcse@gmail.com)
-* **GitHub:** [https://github.com/ashika67](https://github.com/ashika67)
+- **Email:** [prakashr1503@gmail.com](mailto:prakashr1503@gmail.com)
+- **GitHub:** [github.com/prakashr2000](https://github.com/prakashr2000)
+- **LinkedIn:** [Prakash R.](https://www.linkedin.com/in/iamprakashramesh/)
+
+Feel free to connect with me regarding SAP consulting, ERP solutions, supply chain processes, data analytics, and professional opportunities.
 
 ---
 
-⭐ *If you like this project, don’t forget to star the repository!*
-
--
+⭐ If you find my portfolio useful, feel free to star the repository!
