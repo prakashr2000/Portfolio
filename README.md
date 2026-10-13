@@ -2,7 +2,7 @@
 
 A **modern, responsive, and professionally designed portfolio website** showcasing my experience in SAP consulting, ERP systems, supply chain operations, data analytics, and technology solutions.
 
-Built with HTML, CSS, and JavaScript, this portfolio highlights my professional journey, technical expertise, projects, certifications, and achievements.
+
 
 ---
 
