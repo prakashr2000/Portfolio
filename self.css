@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(180deg, #ff6b6b, #4ecdc4);
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container {
+    position: relative;
+    transform: translateZ(-1px) scale(2);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff6b6b;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff6b6b;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffeb3b;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #ffeb3b;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.hobby-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-list li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.hobby-list li:nth-child(1) { animation-delay: 0.1s; }
+.hobby-list li:nth-child(2) { animation-delay: 0.2s; }
+.hobby-list li:nth-child(3) { animation-delay: 0.3s; }
+.hobby-list li:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes slideIn {
+    to { transform: translateX(0); }
+}
+
+.hobby-list li:hover {
+    background: #ff6b6b;
+    transform: translateX(10px);
+}
+
+.download-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.download-btn:hover {
+    background: #ffd700;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        transform: translateZ(-0.5px) scale(1.5);
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p, .hobby-list li {
+        font-size: 1em;
+    }
+}
