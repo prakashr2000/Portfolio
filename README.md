@@ -1,6 +1,3 @@
-
-# 🌟 My Portfolio
-
 # 🌟 Prakash R. — SAP Consultant Portfolio
 
 A **modern, responsive, and professionally designed portfolio website** showcasing my experience in SAP consulting, ERP systems, supply chain operations, data analytics, and technology solutions.
