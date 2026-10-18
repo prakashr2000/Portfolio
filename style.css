@@ -313,8 +313,8 @@ h1, h2, h3 { font-family: 'Manrope', sans-serif; line-height: 1.2; letter-spacin
 
 .profile-monogram img {
     display: block;
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: 100%;
     object-fit: cover;
     object-position: center 25%;
     border-radius: 20px;
